@@ -186,7 +186,7 @@ def plot_quartile_data(sol_df, diameters, logscalex=False):
         ax.plot(diameters, quartile_data.iloc[i], label=f'Time: {time:.2f} s')
         
     ax.set_xlabel('Particle Diameter (cm)')
-    if logscalex:
+    if isinstance(logscalex, bool) and logscalex:
         ax.set_xscale('log')
     ax.set_xlim(min(diameters), max(diameters))
     ax.set_ylim(sol_df.min().min(), sol_df.max().max())
