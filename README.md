@@ -12,6 +12,8 @@ THE MATHEMATICAL PHYSICS OF MARINE PARTICLE AGGREGATION: A COMPUTATIONAL EXPLORA
 Trivik Ragha
 
 ********************************************************************************************************************************************************************************************************
+There are four Python notebooks and five Python scripts in this GitHub repository.
+
 The Master_Notebook.ipynb contains the mathematical theory behind the model, followed by the code that makes up the model.
 
 The actual model consists of the five Python (.py) scripts, which include the same code detailed in the Master Notebook, but in a more refined form.
